@@ -67,6 +67,12 @@ function App() {
           <BotonClear manejarClear={()=>setInput('')}>Clear</BotonClear>
         </div>
       </div>
+      <div className='repo-container'>
+        <a href="https://github.com/Daniel-Barrios-J/creador-memes" target='_blank' rel='noreferrer'>
+          Go to the GitHub repository
+        </a>
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github icon" width={'24px'} />
+      </div>
     </div>
   );
 }

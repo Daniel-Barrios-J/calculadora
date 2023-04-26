@@ -2,8 +2,11 @@
   height: 100vh;
   background-color: #20262E;
   font-family: Lato, sans-serif;
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
 .contenedor-calculadora {
   display: flex;
@@ -25,4 +28,15 @@
   display: flex;
   justify-content: space-evenly;
   gap: 8px;
+}
+.repo-container {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  gap: 12px;
+}
+.repo-container a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: smaller;
+  color: azure;
 }
