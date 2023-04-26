@@ -1,24 +1,28 @@
 .App {
   height: 100vh;
-  padding: 10px;
-  background-color: #1b1b32;
+  background-color: #20262E;
   font-family: Lato, sans-serif;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-content: center;
 }
 .contenedor-calculadora {
-  width: 400px;
-  height: 600px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  gap: 8px;
+  width: 70vw;
+  min-width: 300px;
+  max-width: 600px;
+  height: 75vh;
   padding: 14px;
-  background-color: #99c9ff;
-  border-radius: 20px;
-  border:  5px solid white;
+  background-color: #002B5B;
+  border-radius: 24px;
+  border: 1px solid white;
+  box-shadow: 2px 2px 8px black;
 }
 .fila {
-  margin: 4px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  gap: 8px;
 }

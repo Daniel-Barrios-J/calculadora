@@ -12,22 +12,4 @@ export const Boton = (props) => {
       {props.children}
     </button>
   );
-
-  // OTRA ALTERNATIVA CON CONDICIONALES
-  // return(
-  //   <div 
-  //   className='boton-contenedor operador'
-  //   onClick={()=>props.manejarClick(props.children)}>
-  //   {props.children}
-  //   </div>
-  // ) 
-  // } else {
-  //   return(
-  //     <div 
-  //     className='boton-contenedor'
-  //     onClick={()=>props.manejarClick(props.children)}>
-  //     {props.children}
-  //     </div>
-  //   ) 
-  // }
 }

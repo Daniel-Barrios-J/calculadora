@@ -1,25 +1,30 @@
 .boton-contenedor {
-  height: 83px;
+  height: 60px;
+  width: 60px;
   display: flex;
-  flex: 1 1;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   font-weight: bold;
-  font-size: 38px;
-  background-color: #1b1b32;
-  color: white;
-  border-radius: 25px;
-  border: 2px solid white;
-  margin: 4px;
+  font-size: 24px;
+  background-color: #408E91;
+  color: whitesmoke;
+  border-radius: 20px;
+  border: 1px solid white;
   cursor: pointer;
   user-select: none;
 }
 .operador {
-  background-color: #00471b;
+  background-color: #C3DBD9;
 }
 .boton-contenedor:hover {
-  background-color: #5a01a7;
+  background-color: #1746A2;
 }
 .operador:hover {
-  background-color: #ff6600;
+  background-color: #FF9551;
+}
+@media all and (min-width:640px) {
+  .boton-contenedor {
+    width: 80px;
+    height: 80px;
+  }
 }
